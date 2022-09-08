@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project07</title>
+    <style>
+         *{
+        box-sizing: border-box;
+        }
+        html, body{
+            width: 100%;
+            /* height: 100%; */
+        }
+        body{
+            background-color: rgb(255, 255, 255);
+            background-image: linear-gradient(rgb(255, 255, 255), rgb(219, 205, 228));
+            background-attachment: fixed;
+            align-items: center;
+            color: black;
+        }
+        h3{
+            font-weight: bolder;
+            margin-left: 2rem;
+        }
+
+        h3 button{
+            float: right;
+            margin-right: 2rem;
+            background-color: rgb(28, 3, 53);
+            padding: 0.6rem;
+            border-radius: 1rem;
+            color: white;
+            border-style: none;
+        }
+        
+        #base{
+            float: left;
+            margin: 2rem;
+        }
+
+        div #pic p{
+            float: right;
+            margin-bottom: 5rem;
+        }
+        #pic{
+            float: right;
+            margin-bottom: 5rem;
+        }
+        img{
+            border-radius: 20rem;
+            margin-top: 2rem;
+            margin-right: 2rem;
+        }
+        .clear{
+            clear: both;
+        }
+
+        .box{
+            position: relative;
+            width: 30%;
+            background-color: rgb(246, 233, 240);
+            border: thin solid rgb(248, 243, 234);
+            border-radius: 0.5rem;
+            display: inline-block;
+            padding: 1.3rem;
+            margin: 0.5rem;
+        }
+        .box h5{
+            font-size: medium;
+            font-weight: 800;
+        }
+        .box a{
+            font-weight: 800;
+            text-decoration: none;
+            color: rgb(218, 42, 127);
+        }
+        .add{
+            position: absolute;
+            top: -24px;
+            left: 5rem;
+            border: 0.2rem solid rgb(218, 42, 127);
+            border-radius: 1rem;
+            padding: 0.4rem;
+        }
+        footer{
+            background-color: rgb(28, 3, 53);
+            color: white;
+            padding: 1rem;
+            font-weight: 800;
+            margin-top: 2rem;
+
+        }
+        p button{
+            background-image: linear-gradient(rgb(253, 132, 50), rgb(239, 37, 94));
+            padding: 0.8rem;
+            border-radius: 1rem;
+            border-style: none;
+        }
+
+        footer p button{
+            background-image: linear-gradient(rgb(43, 33, 184),rgb(218, 13, 204));
+            padding: 0.8rem;
+            border-radius: 1rem;
+            color: white;
+            border-style: none;
+        }
+
+                /* For mobile phones: */
+    [class*="col-"] {
+    width: 100%;
+    }
+
+    @media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 30.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 30.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+    #um button{
+        float: right;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="col-12 col-s-12">
+        <h3>Skilled<button>Get Started</button></h3>
+    </div>
+    <p class="one col-12 col-s-12">
+        <div id="pic">
+            <p><img title="12k members" src="images.jpg" alt="workhard"></p>
+        </div>
+    <div id="base">
+        <h2>Maximize skill,<br>
+            minimize budget
+        </h2>
+        <small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Consectetur at natus veritatis cumque quam asperiores enim fuga <br> amet ipsum voluptate.
+        </small>
+        <p>
+            <button>Get Started</button>
+        </p>
+    </div>
+    </p>
+    <div class="clear">
+    <div class="box col-4 col-s-4" style="background-image: linear-gradient(rgb(253, 132, 50), rgb(239, 37, 94));color: white; margin-bottom: 1.7rem;padding-top: 7rem;">
+        <h3>Lorem ipsum dolor sit, <br> amet consectetur adipisicing.</h3>
+    </div>
+    <div class="box col-4 col-s-4">
+        <div class="add">🎃</div>
+        <h5 class="hed">Animation</h5>
+        <p class="tal">Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Eos asperiores nihil reprehenderit, <br> beatae et nam minus!</p>
+        <a class="link" href="#">Get Started</a>
+    </div>
+    <div class="box col-4 col-s-4">
+        <div class="add">🖼</div>
+        <h5 class="hed">Design</h5>
+        <p class="tal">Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Eos asperiores nihil reprehenderit, <br> beatae et nam minus!</p>
+        <a class="link" href="#">Get Started</a>
+    </div>
+    <div class="box col-4 col-s-4">
+        <div class="add">🎪</div>
+        <h5 class="hed">Photography</h5>
+        <p class="tal">Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Eos asperiores nihil reprehenderit, <br> beatae et nam minus!</p>
+        <a class="link" href="#">Get Started</a>
+    </div>
+    <div class="box col-4 col-s-4">
+        <div class="add">🎊</div>
+        <h5 class="hed">Crypto</h5>
+        <p class="tal">Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Eos asperiores nihil reprehenderit, <br> beatae et nam minus!</p>
+        <a class="link" href="#">Get Started</a>
+    </div>
+    <div class="box col-4 col-s-4">
+        <div class="add">🎢</div>
+        <h5 class="hed">Business</h5>
+        <p class="tal">Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Eos asperiores nihil reprehenderit, <br> beatae et nam minus!</p>
+        <a class="link" href="#">Get Started</a>
+    </div>
+    </div>
+    <footer class="col-12 col-s-12">
+        <p id="um">Skilled<button>Get Started</button></p>
+    </footer>
+</body>
+</html>
